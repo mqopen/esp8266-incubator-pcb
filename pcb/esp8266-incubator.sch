@@ -25518,15 +25518,15 @@ high speed</description>
 <part name="ROUT1" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="D1" library="diode" deviceset="PMLL4150" device=""/>
 <part name="D2" library="diode" deviceset="PMLL4150" device=""/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="T5" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC808"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="T6" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC807-16"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="ROUT2" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
@@ -25535,11 +25535,11 @@ high speed</description>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="FAN" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="Q1" library="adafruit" deviceset="MOSFET-P" device="GDS_TO220V"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="100R"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="120K"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="D3" library="diode" deviceset="DIODE-" device="MELF-MLL41"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="D3" library="diode" deviceset="DIODE-" device="MELF-MLL41" value="1N4007"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="1000nF"/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
@@ -25553,6 +25553,8 @@ high speed</description>
 <text x="20.32" y="165.1" size="1.778" layer="97">Programmer</text>
 <text x="10.16" y="38.1" size="1.778" layer="97">Power supply</text>
 <text x="218.44" y="20.32" size="2.54" layer="97" font="vector" ratio="10">v0.1.0</text>
+<text x="7.62" y="132.08" size="1.778" layer="97">TODO:
+D1, D2 - LL4148</text>
 </plain>
 <instances>
 <instance part="SENSOR_CONN" gate="G$1" x="215.9" y="78.74" smashed="yes">
@@ -25651,8 +25653,8 @@ high speed</description>
 <instance part="D1" gate="G$1" x="66.04" y="78.74" rot="R90"/>
 <instance part="D2" gate="G$1" x="81.28" y="104.14" rot="R90"/>
 <instance part="R12" gate="G$1" x="53.34" y="109.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="49.53" y="110.7186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="54.61" y="110.998" size="1.778" layer="96"/>
+<attribute name="NAME" x="49.53" y="113.2586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="49.53" y="110.998" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="73.66" y="91.44"/>
 <instance part="GND10" gate="1" x="73.66" y="53.34"/>
@@ -25661,12 +25663,12 @@ high speed</description>
 <attribute name="VALUE" x="53.34" y="114.3" size="1.778" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="73.66" y="119.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="69.85" y="120.8786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="74.93" y="121.158" size="1.778" layer="96"/>
+<attribute name="NAME" x="69.85" y="123.4186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.85" y="121.158" size="1.778" layer="96"/>
 </instance>
 <instance part="R14" gate="G$1" x="60.96" y="63.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="57.15" y="64.9986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="62.23" y="65.278" size="1.778" layer="96"/>
+<attribute name="NAME" x="57.15" y="67.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="57.15" y="65.278" size="1.778" layer="96"/>
 </instance>
 <instance part="GND11" gate="1" x="66.04" y="99.06"/>
 <instance part="T6" gate="G$1" x="86.36" y="119.38" smashed="yes">
@@ -25674,8 +25676,8 @@ high speed</description>
 <attribute name="VALUE" x="76.2" y="124.46" size="1.778" layer="96"/>
 </instance>
 <instance part="R15" gate="G$1" x="81.28" y="127" smashed="yes" rot="R270">
-<attribute name="NAME" x="79.7814" y="123.19" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="79.502" y="128.27" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="77.2414" y="123.19" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="79.502" y="123.19" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V10" gate="G$1" x="88.9" y="139.7"/>
 <instance part="GND12" gate="1" x="88.9" y="88.9"/>
@@ -25700,10 +25702,13 @@ high speed</description>
 <attribute name="VALUE" x="143.51" y="60.198" size="1.778" layer="96"/>
 </instance>
 <instance part="GND14" gate="1" x="154.94" y="53.34"/>
-<instance part="D3" gate="G$1" x="152.4" y="93.98" rot="R90"/>
+<instance part="D3" gate="G$1" x="152.4" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="149.3774" y="86.36" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="152.1714" y="86.36" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="C4" gate="G$1" x="160.02" y="93.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="164.719" y="90.424" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="164.719" y="95.504" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="157.099" y="85.344" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="159.639" y="85.344" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+1" gate="1" x="33.02" y="40.64"/>
 <instance part="P+2" gate="1" x="68.58" y="147.32"/>
@@ -26322,7 +26327,7 @@ high speed</description>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="152.4" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="91.44" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="93.98" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="91.44" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
 <junction x="160.02" y="83.82"/>
@@ -26358,7 +26363,7 @@ high speed</description>
 <segment>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="152.4" y1="101.6" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="101.6" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="FAN" gate="G$1" pin="2"/>
@@ -26372,4 +26377,10 @@ high speed</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
