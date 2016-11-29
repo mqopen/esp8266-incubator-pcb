@@ -14,3 +14,16 @@
  - Two screw terminals for connecting heaters.
  - 12V screw terminal for controlling fan.
  - Piezo buzzer for alarm signaling.
+
+## v0.1.1
+
+ - Schematics splited into multiple sheets.
+ - Added PWR_LED.
+ - Alarm buzzer is switched using N-MOSFET.
+ - Added ALARM_LED.
+ - Relays are controlled using MOSFET.
+ - Fixed logic of RELAY_NC.
+ - Added RELAY_LED.
+ - Fan is controlled using N-CHANNEL and P-CHANNEL MOSFETS.
+ - Added FAN_LED.
+ - Added RST button.
