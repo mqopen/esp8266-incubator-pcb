@@ -25260,6 +25260,7 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <description>Programming</description>
 <plain>
 <text x="91.44" y="106.68" size="1.778" layer="97">Programmer</text>
+<text x="218.44" y="20.32" size="2.54" layer="97" font="vector" ratio="10">v0.1.1</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -25427,6 +25428,7 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <sheet>
 <description>Fan</description>
 <plain>
+<text x="218.44" y="20.32" size="2.54" layer="97" font="vector" ratio="10">v0.1.1</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -25592,6 +25594,7 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <sheet>
 <description>Relays</description>
 <plain>
+<text x="218.44" y="20.32" size="2.54" layer="97" font="vector" ratio="10">v0.1.1</text>
 </plain>
 <instances>
 <instance part="RELAY_NC" gate="1" x="119.38" y="116.84" smashed="yes">
@@ -25862,6 +25865,7 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <plain>
 <text x="78.74" y="104.14" size="1.778" layer="97">Power supply</text>
 <text x="40.64" y="53.34" size="1.778" layer="97">Power LED</text>
+<text x="218.44" y="20.32" size="2.54" layer="97" font="vector" ratio="10">v0.1.1</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -25962,6 +25966,7 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <sheet>
 <description>Sensor</description>
 <plain>
+<text x="218.44" y="20.32" size="2.54" layer="97" font="vector" ratio="10">v0.1.1</text>
 </plain>
 <instances>
 <instance part="SENSOR_CONN" gate="G$1" x="111.76" y="83.82" smashed="yes">
@@ -26074,6 +26079,7 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <sheet>
 <description>Alarm</description>
 <plain>
+<text x="218.44" y="20.32" size="2.54" layer="97" font="vector" ratio="10">v0.1.1</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0"/>
