@@ -2734,13 +2734,14 @@ Package DO-213AB = http://www.diotec.com/pdf/sm4001.pdf</description>
 <contactref element="ROUT2" pad="1"/>
 <wire x1="33.782" y1="3.302" x2="33.782" y2="7.366" width="2.54" layer="16"/>
 <wire x1="33.782" y1="7.366" x2="35.052" y2="8.636" width="2.54" layer="16"/>
-<wire x1="35.052" y1="8.636" x2="35.052" y2="34.036" width="2.54" layer="16"/>
-<wire x1="35.052" y1="34.036" x2="44.704" y2="43.942" width="2.54" layer="16"/>
+<wire x1="35.052" y1="8.636" x2="35.052" y2="37.084" width="2.54" layer="16"/>
 <wire x1="44.704" y1="43.942" x2="42.926" y2="43.942" width="2.54" layer="16"/>
-<wire x1="42.926" y1="43.942" x2="41.148" y2="45.72" width="2.54" layer="16"/>
+<wire x1="42.926" y1="43.942" x2="42.418" y2="44.45" width="2.54" layer="16"/>
+<wire x1="42.418" y1="44.45" x2="41.148" y2="45.72" width="2.54" layer="16"/>
 <wire x1="41.148" y1="45.72" x2="41.148" y2="54.61" width="2.54" layer="16"/>
 <wire x1="44.704" y1="56.134" x2="42.672" y2="56.134" width="2.54" layer="16"/>
 <wire x1="42.672" y1="56.134" x2="41.148" y2="54.61" width="2.54" layer="16"/>
+<wire x1="35.052" y1="37.084" x2="42.418" y2="44.45" width="2.54" layer="16"/>
 </signal>
 <signal name="P230">
 <contactref element="RIN" pad="2"/>
