@@ -168,8 +168,8 @@
 <text x="46.736" y="61.214" size="1.27" layer="26" font="vector" ratio="15" rot="MR0" align="center">-</text>
 <text x="1.016" y="41.402" size="1.27" layer="26" font="vector" ratio="15" rot="MR0" align="center">+</text>
 <text x="1.016" y="46.482" size="1.27" layer="26" font="vector" ratio="15" rot="MR0" align="center">-</text>
-<hole x="2.794" y="88.9" drill="3.2"/>
-<hole x="45.466" y="88.9" drill="3.2"/>
+<hole x="3.048" y="88.646" drill="3.2"/>
+<hole x="45.212" y="88.646" drill="3.2"/>
 <text x="36.576" y="62.992" size="1.27" layer="25" font="vector" ratio="15" align="bottom-center">3V3</text>
 <text x="36.576" y="53.086" size="1.27" layer="25" font="vector" ratio="15" align="bottom-center">HIGH</text>
 <text x="9.398" y="36.322" size="1.27" layer="25" font="vector" ratio="15" align="bottom-center">PWR_SUPPLY</text>
@@ -178,6 +178,7 @@
 <text x="8.89" y="82.804" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center-left">FAN</text>
 <text x="11.684" y="82.804" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center-left">ALARM</text>
 <text x="14.478" y="82.804" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center-left">ACT</text>
+<hole x="45.212" y="3.048" drill="3.2"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -2316,7 +2317,7 @@ Package DO-213AB = http://www.diotec.com/pdf/sm4001.pdf</description>
 <via x="25.019" y="61.214" extent="1-16" drill="0.6"/>
 <via x="13.843" y="65.024" extent="1-16" drill="0.6"/>
 <via x="9.398" y="66.675" extent="1-16" drill="0.6"/>
-<via x="3.937" y="70.866" extent="1-16" drill="0.6"/>
+<via x="3.81" y="70.866" extent="1-16" drill="0.6"/>
 <via x="1.397" y="58.674" extent="1-16" drill="0.6"/>
 <via x="17.272" y="73.66" extent="1-16" drill="0.6"/>
 <via x="17.78" y="66.421" extent="1-16" drill="0.6"/>
@@ -2833,9 +2834,6 @@ Package DO-213AB = http://www.diotec.com/pdf/sm4001.pdf</description>
 <wire x1="18.542" y1="43.434" x2="21.082" y2="43.434" width="0.8128" layer="16"/>
 <wire x1="22.86" y1="53.594" x2="34.036" y2="53.594" width="0.8128" layer="1"/>
 <wire x1="34.036" y1="53.594" x2="36.576" y2="56.134" width="0.8128" layer="1"/>
-</signal>
-<signal name="N$10">
-<via x="45.212" y="3.048" extent="1-16" drill="3.2"/>
 </signal>
 <signal name="N$16">
 <contactref element="RELAY_NC" pad="2"/>
