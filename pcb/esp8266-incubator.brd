@@ -1977,11 +1977,11 @@ Package DO-213AB = http://www.diotec.com/pdf/sm4001.pdf</description>
 <attribute name="NAME" x="13.97" y="76.835" size="1.27" layer="26" font="vector" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="14.097" y="72.136" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="T2" library="transistor" package="SOT23-BEC" value="" x="28.194" y="81.788" smashed="yes" rot="MR90">
+<element name="T2" library="transistor" package="SOT23-BEC" value="S8050" x="28.194" y="81.788" smashed="yes" rot="MR90">
 <attribute name="NAME" x="29.337" y="83.693" size="1.27" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="25.019" y="79.883" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="T1" library="transistor" package="SOT23-BEC" value="" x="20.066" y="81.788" smashed="yes" rot="MR270">
+<element name="T1" library="transistor" package="SOT23-BEC" value="S8050" x="20.066" y="81.788" smashed="yes" rot="MR270">
 <attribute name="NAME" x="21.209" y="83.693" size="1.27" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="23.241" y="83.693" size="1.27" layer="28" rot="MR270"/>
 </element>

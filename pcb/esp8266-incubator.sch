@@ -24908,8 +24908,8 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="T2" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC808"/>
-<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC808"/>
+<part name="T2" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC808" value="S8050"/>
+<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC808" value="S8050"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
@@ -25008,8 +25008,10 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <sheet>
 <description>CPU</description>
 <plain>
-<text x="187.96" y="129.54" size="1.778" layer="97">Activity LED</text>
+<text x="182.88" y="134.62" size="1.778" layer="97">Activity LED</text>
 <text x="218.44" y="20.32" size="2.54" layer="97" font="vector" ratio="10">v0.1.1</text>
+<text x="83.82" y="119.38" size="1.778" layer="97">ESP8266</text>
+<text x="38.1" y="66.04" size="1.778" layer="97">Reset button</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="137.16" y="73.66"/>
@@ -25024,28 +25026,28 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="R1" gate="G$1" x="142.24" y="83.82" rot="R270"/>
 <instance part="GND7" gate="1" x="142.24" y="73.66"/>
-<instance part="R24" gate="G$1" x="223.52" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="219.71" y="57.3786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="224.79" y="57.658" size="1.778" layer="96"/>
+<instance part="R24" gate="G$1" x="187.96" y="73.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="184.15" y="75.1586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="189.23" y="75.438" size="1.778" layer="96"/>
 </instance>
-<instance part="R25" gate="G$1" x="223.52" y="50.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="219.71" y="52.2986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="224.79" y="52.578" size="1.778" layer="96"/>
+<instance part="R25" gate="G$1" x="187.96" y="68.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="184.15" y="70.0786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="189.23" y="70.358" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="210.82" y="63.5"/>
+<instance part="+3V2" gate="G$1" x="175.26" y="81.28"/>
 <instance part="U$1000" gate="G$1" x="17.78" y="165.1"/>
-<instance part="R26" gate="G$1" x="223.52" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="219.71" y="47.2186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="224.79" y="47.498" size="1.778" layer="96"/>
+<instance part="R26" gate="G$1" x="187.96" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="184.15" y="64.9986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="189.23" y="65.278" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="251.46" y="35.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="248.539" y="32.004" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="248.539" y="37.084" size="1.778" layer="96" rot="R90"/>
+<instance part="C4" gate="G$1" x="215.9" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="212.979" y="49.784" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="212.979" y="54.864" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND9" gate="1" x="251.46" y="27.94"/>
-<instance part="R27" gate="G$1" x="223.52" y="40.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="219.71" y="42.1386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="224.79" y="42.418" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="215.9" y="45.72"/>
+<instance part="R27" gate="G$1" x="187.96" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="184.15" y="59.9186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="189.23" y="60.198" size="1.778" layer="96"/>
 </instance>
 <instance part="RST" gate="S" x="73.66" y="55.88"/>
 <instance part="GND20" gate="1" x="86.36" y="48.26"/>
@@ -25069,7 +25071,7 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="251.46" y1="33.02" x2="251.46" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="50.8" x2="215.9" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RST" gate="S" pin="3"/>
@@ -25104,20 +25106,20 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="218.44" y1="50.8" x2="210.82" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="50.8" x2="210.82" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="68.58" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="68.58" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="55.88" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="55.88" x2="210.82" y2="55.88" width="0.1524" layer="91"/>
-<junction x="210.82" y="55.88"/>
+<wire x1="175.26" y1="73.66" x2="175.26" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
+<junction x="175.26" y="73.66"/>
 <pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="45.72" x2="210.82" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="45.72" x2="210.82" y2="50.8" width="0.1524" layer="91"/>
-<junction x="210.82" y="50.8"/>
+<wire x1="182.88" y1="63.5" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="63.5" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
+<junction x="175.26" y="68.58"/>
 <pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="40.64" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="40.64" x2="210.82" y2="45.72" width="0.1524" layer="91"/>
-<junction x="210.82" y="45.72"/>
+<wire x1="182.88" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="58.42" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
+<junction x="175.26" y="63.5"/>
 </segment>
 </net>
 <net name="TXD" class="0">
@@ -25143,9 +25145,9 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="45.72" x2="251.46" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="45.72" x2="251.46" y2="40.64" width="0.1524" layer="91"/>
-<label x="236.22" y="45.72" size="1.778" layer="95"/>
+<wire x1="193.04" y1="63.5" x2="215.9" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="63.5" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
+<label x="200.66" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
@@ -25161,8 +25163,8 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="55.88" x2="241.3" y2="55.88" width="0.1524" layer="91"/>
-<label x="236.22" y="55.88" size="1.778" layer="95"/>
+<wire x1="193.04" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
+<label x="200.66" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO16" class="0">
@@ -25207,8 +25209,8 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 </segment>
 <segment>
 <pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="50.8" x2="241.3" y2="50.8" width="0.1524" layer="91"/>
-<label x="236.22" y="50.8" size="1.778" layer="95"/>
+<wire x1="193.04" y1="68.58" x2="205.74" y2="68.58" width="0.1524" layer="91"/>
+<label x="200.66" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -25219,8 +25221,8 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 </segment>
 <segment>
 <pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="40.64" x2="241.3" y2="40.64" width="0.1524" layer="91"/>
-<label x="236.22" y="40.64" size="1.778" layer="95"/>
+<wire x1="193.04" y1="58.42" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
+<label x="200.66" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RELAY" class="0">
@@ -25261,6 +25263,7 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <plain>
 <text x="91.44" y="106.68" size="1.778" layer="97">Programmer</text>
 <text x="218.44" y="20.32" size="2.54" layer="97" font="vector" ratio="10">v0.1.1</text>
+<text x="35.56" y="78.74" size="1.778" layer="97">Programming button</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -25271,11 +25274,11 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <instance part="P+2" gate="1" x="149.86" y="106.68"/>
 <instance part="T2" gate="G$1" x="193.04" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="195.58" y="88.9" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="203.2" y="88.9" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="187.96" y="96.52" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="T1" gate="G$1" x="193.04" y="114.3" smashed="yes" rot="MR0">
 <attribute name="NAME" x="195.58" y="119.38" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="203.2" y="119.38" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="187.96" y="109.22" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="R3" gate="G$1" x="203.2" y="114.3"/>
 <instance part="R4" gate="G$1" x="203.2" y="93.98"/>
