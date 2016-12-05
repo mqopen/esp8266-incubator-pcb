@@ -3,8 +3,6 @@ Design of ESP8266 incubator PCB.
 
 ![Assembled incubator](img/esp8266-incubator-assembled.jpg)
 
-**Warning:** Please do not use this PCB version! It has many major flaws which will be fixed in future version.
-
 ## Features
 
   * Powered by mini DC-DC power supply module ([LM2596](http://www.ti.com/lit/ds/symlink/lm2596.pdf) chip).
