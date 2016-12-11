@@ -24910,15 +24910,15 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="T2" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC808" value="S8050"/>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC808" value="S8050"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="PWR" library="jumper" deviceset="JP1Q" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
@@ -24928,14 +24928,14 @@ BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;gt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="ISPPWR" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="ISP" library="adafruit" deviceset="AVRISP" device="-6"/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="U$1000" library="SparkFun" deviceset="OSHW-LOGO" device="L"/>
-<part name="R26" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
+<part name="R26" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
+<part name="R27" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="RELAY_NC" library="relay" deviceset="JS-M1*" device="" technology="-12V-5"/>
 <part name="RELAY_NO" library="relay" deviceset="JS-M1*" device="" technology="-12V-5"/>
 <part name="RIN" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>

@@ -1985,11 +1985,11 @@ Package DO-213AB = http://www.diotec.com/pdf/sm4001.pdf</description>
 <attribute name="NAME" x="21.209" y="83.693" size="1.27" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="23.241" y="83.693" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R3" library="rcl" package="R0805" value="12K" x="24.13" y="82.804" smashed="yes" rot="MR180">
+<element name="R3" library="rcl" package="R0805" value="10K" x="24.13" y="82.804" smashed="yes" rot="MR180">
 <attribute name="NAME" x="25.019" y="83.82" size="1.27" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="23.495" y="85.344" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R4" library="rcl" package="R0805" value="12K" x="24.13" y="80.772" smashed="yes" rot="MR0">
+<element name="R4" library="rcl" package="R0805" value="10K" x="24.13" y="80.772" smashed="yes" rot="MR0">
 <attribute name="NAME" x="22.987" y="79.756" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="24.765" y="78.232" size="1.27" layer="28" rot="MR0"/>
 </element>
@@ -2009,7 +2009,7 @@ Package DO-213AB = http://www.diotec.com/pdf/sm4001.pdf</description>
 <attribute name="NAME" x="21.336" y="24.511" size="1.27" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="18.796" y="19.939" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R1" library="rcl" package="R0805" value="12K" x="37.592" y="70.104" smashed="yes" rot="R270">
+<element name="R1" library="rcl" package="R0805" value="10K" x="37.592" y="70.104" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.449" y="66.548" size="1.27" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="35.052" y="70.739" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -2020,16 +2020,16 @@ Package DO-213AB = http://www.diotec.com/pdf/sm4001.pdf</description>
 <element name="ISP" library="adafruit" package="AVRISP" value="AVRISP-6" x="43.18" y="80.772" smashed="yes">
 <attribute name="NAME" x="40.386" y="78.74" size="1.27" layer="25" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R24" library="rcl" package="R0805" value="12K" x="28.448" y="70.358" smashed="yes" rot="MR0">
+<element name="R24" library="rcl" package="R0805" value="10K" x="28.448" y="70.358" smashed="yes" rot="MR0">
 <attribute name="NAME" x="26.289" y="69.596" size="1.27" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="29.083" y="67.818" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R25" library="rcl" package="R0805" value="12K" x="28.448" y="72.39" smashed="yes" rot="MR0">
+<element name="R25" library="rcl" package="R0805" value="10K" x="28.448" y="72.39" smashed="yes" rot="MR0">
 <attribute name="NAME" x="26.289" y="71.628" size="1.27" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="29.083" y="69.85" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="U$1000" library="SparkFun" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="9.398" y="24.638" smashed="yes" rot="MR0"/>
-<element name="R26" library="rcl" package="R0805" value="12K" x="24.13" y="77.47" smashed="yes" rot="MR180">
+<element name="R26" library="rcl" package="R0805" value="10K" x="24.13" y="77.47" smashed="yes" rot="MR180">
 <attribute name="NAME" x="26.289" y="77.978" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="23.495" y="80.01" size="1.27" layer="28" rot="MR180"/>
 </element>
@@ -2037,7 +2037,7 @@ Package DO-213AB = http://www.diotec.com/pdf/sm4001.pdf</description>
 <attribute name="NAME" x="16.764" y="77.978" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="16.764" y="81.534" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R27" library="rcl" package="R0805" value="12K" x="24.13" y="75.438" smashed="yes" rot="MR180">
+<element name="R27" library="rcl" package="R0805" value="10K" x="24.13" y="75.438" smashed="yes" rot="MR180">
 <attribute name="NAME" x="26.289" y="75.946" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="23.495" y="77.978" size="1.27" layer="28" rot="MR180"/>
 </element>
